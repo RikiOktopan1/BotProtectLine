@@ -146,13 +146,10 @@ def SEND_MESSAGE(op):
                                 print (msg.to,[g.mid])
                             except:
                                 sendText(msg.to,"error")
-#-------------------------------------------------------------
-                if msg.text == "Salken all":
-                    sendMessage(msg.to,"hehehe")
 #-------------------------------------------------------------			
-		if msg.text == "Speed":
+		if msg.text == "Salken all":
                     start = time.time()
-                    sendMessage(msg.to, "Loading ......")
+                    sendMessage(msg.to, "hehehe")
                     elapsed_time = time.time() - start
                     sendMessage(msg.to, "%sseconds" % (elapsed_time))
 #-------------------------------------------------------------		
