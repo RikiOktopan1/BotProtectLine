@@ -148,7 +148,14 @@ def SEND_MESSAGE(op):
                                 sendText(msg.to,"error")
 #-------------------------------------------------------------
                 if msg.text == "Salken all":
-                    sendMessage(msg.to, text="gift sent", contentMetadata=None, contentType=9)
+                    sendMessage(msg.to,"hehehe")
+#-------------------------------------------------------------			
+		if msg.text == "Speed":
+                    start = time.time()
+                    sendMessage(msg.to, "Loading ......")
+                    elapsed_time = time.time() - start
+                    sendMessage(msg.to, "%sseconds" % (elapsed_time))
+#-------------------------------------------------------------		
         else:
             pass
 
