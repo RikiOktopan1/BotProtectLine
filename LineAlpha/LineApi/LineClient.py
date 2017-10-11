@@ -31,7 +31,7 @@ class LineClient(LineApi):
     @loggedIn
     def _loginresult(self):
         if self.isLogin == True:
-            print "\nBotProtect\nMade by Farzain - zFz\nKalau mau di-edit, silahkan\nini juga pake LineVodka dari Merkremont\n"
+            print "\nBotProtect\nRikiOktopan\Perpaduan LineVodka dan Line TCR\n"
             print "authToken : " + self.authToken + "\n"
             print "certificate : " + self.certificate + "\n"
             """:type profile: Profile"""
